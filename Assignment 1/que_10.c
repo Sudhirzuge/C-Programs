@@ -5,7 +5,7 @@ int main(){
     printf("enter the 3 sides of a traingle");
     scanf("%d%d%d", &a, &b, &c);
 
-    int perimeter = a+b+b+c+c*a;
+    int perimeter = a+b+c;
 
     int s = perimeter/2;
 
